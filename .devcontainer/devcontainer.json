@@ -1,3 +1,4 @@
+
 {
     "name": "devcontainer",
     "build": {
@@ -7,7 +8,8 @@
         "workbench.colorTheme": "Default Dark+",
     },     
     "extensions": [
-        "ms-vscode.go",
+       "ms-vscode.go",
     ],
 
 }
+
