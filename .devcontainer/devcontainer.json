@@ -1,6 +1,10 @@
 {
-    "name": "devcontainer",
+    "name": "devcontainer - C# - .NET Core 2.1",
     "build": {
         "dockerfile": "Dockerfile"
-    }
+    },
+    "extensions": [
+		"ms-azuretools.vscode-azurefunctions",
+		"ms-dotnettools.csharp"
+	]
 }
