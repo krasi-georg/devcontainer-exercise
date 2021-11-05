@@ -3,3 +3,6 @@
 ARG VARIANT=3.13
 
 FROM alpine:${VARIANT}
+
+RUN apk update; 
+        # apk install wget; \asf
