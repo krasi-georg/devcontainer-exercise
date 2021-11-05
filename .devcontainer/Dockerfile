@@ -1,2 +1,7 @@
-FROM alpine3.14
+FROM alpine3.11
 
+#ARG USERNAME=vscode
+
+#ARG USER_UID=1000
+
+#ARG USER_GID=$USER_UID
